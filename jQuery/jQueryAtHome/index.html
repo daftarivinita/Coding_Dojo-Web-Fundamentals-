@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jquery learning</title>
+    <script type= "text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type = "text/javascript">
+        $(document).ready(function(){
+            alert("you are now workiing with jquery");
+        $("a").click(function(){
+            alert("you are leaving the page");
+        });
+        $('#hide').click(function(){
+            $("p").hide();
+        })
+        $('#show').click(function(){
+            $("p").show();
+        })
+        $("button").click(function(){
+            $("button").this.css("background-color", "yellow")
+        })
+
+
+    })
+</script>
+</head>
+<body>
+    <p>this is a paragraph</p>
+    <p>this is also a paragraph</p>
+    <button id="hide">this will hide all paragraphs</button>
+    <button id="show">click to show all paragraphs</button>
+    <a id= "mylink" href= "http://www.google.com">Go to Google</a>
+    <h3>Moutain View california</h3>
+    <h2>Seattle, WA</h2>
+    <button class="append">CLick to see .apppend work</button>
+    <div class="result"></div>
+   
+</body>
+</html>

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $( "h1" ).addClass( "red" );
+
+            // $('h1').click(function(){
+            //     $(".nav-bar").hide();
+            // });
+            $('h1').click(function(){
+                $(".nav-bar").toggle();
+            });
+            $(".nav-bar .arrow").click(function(){
+            $(this).hide()
+            
+            })
+            $(".nav-bar-btn").click(function(){
+                $(".nav-bar .arrow").show();
+            })
+            $('.img-1').click(function(){
+                $('.img-1').slideUp("slow")
+            })
+            $('.img-3').click(function(){
+                $('.img').slideToggle("slow")
+            })
+            $('.img').click(function(){
+                $('.img').slideUp("slow")
+            })
+            $( ".fadeInOutBtn" ).hover(function() {
+                $("h2").fadeOut( 3000 );
+                $( "h2").fadeIn( 3000 );
+            });
+            $(".Append-button").click(function(){
+                $(".Append-button").append("APPEND");
+            })
+            $(".addng-p").click(function(){
+                $(".addng-p").html("<h1>html</h1>");
+            })
+            $(".after").click(function(){
+                $(".after").after("<p>After text</p>");
+            })
+            $(".before").click(function(){
+                $(".before").before("<p>before text</p>");
+            })
+            $(".text").click(function(){
+                $(".text").text("I am new P");
+            })
+            $(".attributes").click(function(){
+                $(".attributes a").attr("class","haha");
+            })
+            
+            
+            $(".val").click(function(){
+                $("input:text").val("changing value");
+            });
+        })
+       
+    </script>
+</head>
+<body>
+    <div class="wrapper">
+        <h1>My Jquery Basic Assignment-I have a class</h1>
+        <div class="nav-bar">
+            <p><i class="arrow right"></i></p>
+            <p><i class="arrow left"></i></p>
+            <p><i class="arrow up"></i></p>
+            <p><i class="arrow down"></i></p>
+            <form action="">
+                <input type="text" placeholder="show nav-bar">
+                <button class="nav-bar-btn" type="submit">GO</button>
+            </form>
+        </div>
+        
+        <button class="Append-button"> click here </button>
+        <p>Use of Append by clicking above button</p>
+        <button class= "fadeInOutBtn" type="button">Hover</button>
+        <h2>I Fade in and Fade out by Hovering over <button></button> <button></button></h2>
+            
+      
+        <div class="image-container">
+            <img class="img-1" src= "https://picsum.photos/seed/picsum/200/300" alt="random">
+            <img class="img img-2"src= "https://picsum.photos/seed/picsum/200/300" alt="random">
+            <img class="img-3"src= "https://picsum.photos/seed/picsum/200/300" alt="random">
+            <img class="img img-4"src= "https://picsum.photos/seed/picsum/200/300" alt="random">
+        </div>
+        <p class= "before">adding text before this</p>
+        <p class="addng-p">I AM CHANGING HTML</p>
+        <p class="after">adding text after me</p>
+        <p class="text">I am old text</p>
+    </body>
+    <div class= "attributes">
+        <a id="temp" href = "#">Home</a>
+        <a href = "#">Menu</a>
+        <a href = "#">Sale</a>
+        <a href = "#">Help</a>
+    </div>
+    <button class="val">The val() method is mostly used with HTML form elements.</button>
+</html>

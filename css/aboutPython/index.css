@@ -1,0 +1,151 @@
+.bodycontent {
+    background-color: #3776ab;
+
+}
+/* header stylng */
+* {
+    font-family: sans-serif;
+}
+.header img {
+    width: 30%;
+    padding: -5%;
+    margin-left:5%;
+    margin-top:2%;
+
+    }
+ .header-text input {
+    width: 40%;
+    margin-left: 25%;
+    
+} 
+.header-text {
+    color: whitesmoke;
+   
+}
+.header-text a {
+color:yellow;
+
+}
+.header-text p{
+    margin-left:-50px;
+}
+.button {
+    padding: 0.5%;
+    background-color:#3776ab;
+    text-decoration: none;
+    margin-left:3%;
+    box-shadow: 1px 1px 1px black;
+
+    
+}
+.search {
+    width:140%;
+    background-color: gray;
+    padding: 10%;
+    border-radius: 10px;
+    margin-left:-80%;
+}
+
+.header {
+    background-color: #3776ab;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2%;
+    
+}
+/* navbar styling */
+.nav-bar{
+    background-color: cornflowerblue;
+    height: 7vh;
+    width:90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-bar a{
+    text-decoration: none;
+    /* background-color: navy; */
+    
+    color:white;
+    font-size: 1.5rem;
+    background-color: cornflowerblue;
+}
+.side-bar {
+    margin-left: 5%;
+}
+.side-bar a {
+    font-size: 1.7rem;
+    color: whitesmoke;
+}
+.side-bar li {
+    color: yellow;
+}
+
+.main-text {
+    color: whitesmoke;
+    text-align: center;
+    width:60%;
+}
+header ul li {
+    color:yellow;
+    font-weight: bold;
+}
+.yellow {
+    color:yellow;
+    font-size: 1.4rem;
+    font-style: italic;
+    
+}
+
+section {
+    width:90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content:space-between;
+    
+}
+/* middle styling */
+.middle {
+    display:flex;
+    justify-content: center;
+    margin-bottom:1%
+}
+.middle-1, .middle-2 {
+    text-align: center;
+    width:30%;
+    padding:0 5% 0 5%;
+    
+    
+    
+}
+.middle ul {
+    color: #3776ab;
+    list-style: square;
+}
+.middle h3 {
+
+    border-top:5px solid #3776ab;
+    padding-top:1%;
+}
+
+
+
+/* footer styling */
+footer {
+    text-align: center;
+    padding-top:3%;
+    background-image: linear-gradient(#3776ab, cornflowerblue);
+    padding-bottom:0.05%;
+}
+footer a{
+    padding:3%;
+    text-decoration: none;
+    color:cornflowerblue;
+}
+footer p {
+    color: cornflowerblue;
+    font-size: 0.8rem;
+    
+}

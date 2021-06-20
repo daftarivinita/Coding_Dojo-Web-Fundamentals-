@@ -1,0 +1,25 @@
+body{
+    background-color: black;
+}
+div.row div{
+    width:20px;
+    height:20px;
+    border:1px solid black;
+    display:inline-block;
+}
+div .brick {
+    background-color: blue;
+}
+div .coin {
+    background-image: url(http://www.jogueja.com/theme/AMThemes/JogueJa/images/mario/coin_ani.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+div .pacman {
+    background-image: url(https://thumbs.gfycat.com/ClutteredGreatIndianpalmsquirrel-max-1mb.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+

@@ -1,0 +1,150 @@
+
+/* general styles */
+* {
+    box-sizing:border-box;
+    max-width: 100%;
+    margin: 0 auto;
+    
+}
+body {
+    background-color: black;
+}
+#wrapper {
+    width:80%;
+    
+}
+/* header styling */
+
+.header {
+    display: flex;
+    background-color:white;
+}
+
+.header h1, .header p{
+    padding: 7px;
+}
+.header h1{
+    font-style: italic;
+    margin-left:20px;
+    font-size: 1.5rem;
+}
+.header p{
+    font-size: 1.5rem;
+    margin-right:20px;
+}
+/* styling main */
+.main{
+    background-image: linear-gradient(rgba(103, 65, 114, 1), #301934,rgba(103, 65, 114, 1));
+    
+}
+/* styling main1 */
+.main-1 {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top:3%;
+    margin:0 15px;
+    
+    
+}
+.main-1 img {
+    width:40%;
+    border: 5px solid #c4c7cb;
+    
+}
+.main-1 div{
+    width:55%;
+    /* background-color: white;
+    opacity: 82%; */
+    background-image: linear-gradient(to right, white,rgba(241, 231, 254, 1),rgba(241, 231, 254, 1));
+    
+}
+.main-1 div h2{
+    color: whitesmoke;
+    font-size: 1.2rem;
+    background-image:linear-gradient(#c4c7cb,#43464b,#c4c7cb);
+    margin-bottom: 3%;
+    padding: 1.5%;
+}
+.main-1 div p{
+    font-size: 1rem;
+    
+    padding:0 2% 2% 2%;
+    
+}
+.main-1 div a{
+    color: black;
+    font-size:1.2rem ;
+    padding-left: 2%;
+    
+}
+
+/* styling main2 */
+.main-2 {
+    display:flex;
+    margin: 2%;
+    padding-bottom: 2%;
+}
+
+
+
+.main-2 div{
+    margin:1%;
+    background-image: linear-gradient(to right, white,rgba(241, 231, 254, 1));
+    text-align: center;
+    padding-bottom: 3%;
+}
+.main-2 h2{
+    color: whitesmoke;
+    font-size: 1.2rem;
+    background-image:linear-gradient(#c4c7cb,#43464b,#c4c7cb);
+    padding: 1.5% 0 1.5% 3%;
+    text-align:justify;
+}
+.main-2 p{
+    padding: 3%;
+    font-size: 1rem;
+    text-align:justify;
+}
+.icon img{
+    width:25px;
+    margin: 10px;
+}
+/* .main img {
+    
+} */
+.main-2 div button {
+    /* margin-left: 35%; */
+    text-align: center;
+    background-color: green;
+    border-radius: 7px;
+    padding: 1.5%;
+}
+/* styling footer */
+.address{
+    margin-top: -2.5%;
+    background-color:white;
+    padding-top:1%;
+    padding-bottom:1%;
+}
+.address a{
+    color:black;
+    font-size: 1rem;
+    font-style: italic;
+}
+.address img{
+    width:2.5%;
+    margin-top:1%;
+    
+}
+.address-1, .address-2 {
+    text-align: center;
+    font-size: 1rem;
+    color: black;
+}
+.address-1 a {
+    text-decoration: none;
+}
+
+
+
+
